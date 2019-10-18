@@ -4465,13 +4465,10 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hook-gstate@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/hook-gstate/-/hook-gstate-1.0.4.tgz#118962e0899a7d7c1a523bf2ac2401e3189dc34f"
-  integrity sha512-3zRiPxgAqthD3FAfLuALgfBcAjpQ76allCPc7kW5difQ78033PVhqGA5CgBq1G5MkerC8PSo+hvQJk6r5s1wCw==
-  dependencies:
-    dot-prop-immutable "^1.5.0"
-    react "^16.8.0"
+hook-gstate@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/hook-gstate/-/hook-gstate-1.0.5.tgz#87740b30ec864d96aa683ae0685704444c66ff91"
+  integrity sha512-3XX0+t2VKKmmLR9xLSzK+XvfTxGe+P+DnlN1KhhmJ7RaXhQ4A18WARtKXPMPmJL8Ecw43j9K7EGSUNqxOFWhOg==
 
 hosted-git-info@^2.1.4:
   version "2.7.1"
@@ -7974,15 +7971,6 @@ react-scripts@3.0.1:
     workbox-webpack-plugin "4.2.0"
   optionalDependencies:
     fsevents "2.0.6"
-
-react@^16.8.0:
-  version "16.10.2"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.10.2.tgz#a5ede5cdd5c536f745173c8da47bda64797a4cf0"
-  integrity sha512-MFVIq0DpIhrHFyqLU0S3+4dIcBhhOvBE8bJ/5kHPVOVaGdo0KuiQzpcjCPsf585WvhypqtrMILyoE2th6dT+Lw==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
 
 react@^16.8.6:
   version "16.8.6"
