@@ -1,15 +1,21 @@
 import React from 'react';
 import './App.css';
-import List from './screens/list';
-// import MyComponent from './screens/list/MyComponent';
+import Login from './screens/login';
+import useLogin from './screens/login/store';
+import Inputs from './screens/inputs';
 
-function AppComponent() {
+function App() {
+    const [{ logged }] = useLogin({ logged: 'logged' });
     return (
         <div className="App">
-            <List />
-            {/* <MyComponent /> */}
+            {
+                logged ?
+                    <Inputs />
+                :
+                    <Login />
+            }
         </div>
     );
 }
 
-export default AppComponent;
+export default App;
